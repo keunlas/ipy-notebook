@@ -318,3 +318,5 @@ AssertionError
 [I 22:44:17.269 NotebookApp] 302 POST /login?next=%2Ftree%2Fmatplotlib (171.43.236.71) 80.280000ms
 [W 22:44:38.219 NotebookApp] Forbidden
 [W 22:44:38.219 NotebookApp] 403 GET /api/contents/numpy/numpy.ipynb?type=notebook&_=1679063662783 (180.101.245.251) 0.850000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
+[W 22:49:54.985 NotebookApp] Forbidden
+[W 22:49:54.985 NotebookApp] 403 GET /api/config/notebook?_=1679064186621 (220.196.160.96) 0.710000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
