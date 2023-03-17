@@ -287,3 +287,9 @@ AssertionError
 [W 22:39:34.136 NotebookApp] 403 GET /api/contents/matplotlib?type=directory&_=1679063648788 (220.196.160.61) 0.790000ms referer=http://114.132.78.107:8888/tree/matplotlib
 [W 22:39:57.090 NotebookApp] Forbidden
 [W 22:39:57.091 NotebookApp] 403 GET /api/config/notebook?_=1679063662781 (220.196.160.144) 0.710000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
+[W 22:40:27.469 NotebookApp] Forbidden
+[W 22:40:27.470 NotebookApp] 403 GET /api/contents?type=directory&_=1679063648774 (180.101.245.249) 0.710000ms referer=http://114.132.78.107:8888/tree?
+[W 22:40:37.136 NotebookApp] Method Not Allowed
+[W 22:40:37.137 NotebookApp] 405 GET /api/kernels/4ca8c3e9-be17-47a0-ac84-674d742e32d9/restart (180.101.245.250) 0.980000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
+[W 22:40:51.385 NotebookApp] Couldn't authenticate WebSocket connection
+[W 22:40:51.387 NotebookApp] 403 GET /api/kernels/4ca8c3e9-be17-47a0-ac84-674d742e32d9/channels?session_id=a73c8446b9334a638528a8fa3e3c6417 (180.101.244.12) 2.580000ms referer=None
