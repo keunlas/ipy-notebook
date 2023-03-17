@@ -27,3 +27,5 @@
 [W 05:07:38.151 NotebookApp] 403 GET /api/config/common?_=1679086805879 (180.101.244.11) 0.730000ms referer=http://114.132.78.107:20001/tree?
 [W 05:07:40.261 NotebookApp] Forbidden
 [W 05:07:40.261 NotebookApp] 403 GET /api/config/tree?_=1679086805878 (180.101.245.252) 0.740000ms referer=http://114.132.78.107:20001/tree?
+[W 05:08:43.071 NotebookApp] Forbidden
+[W 05:08:43.071 NotebookApp] 403 GET /api/kernelspecs (220.196.160.101) 0.680000ms referer=http://114.132.78.107:20001/tree?
