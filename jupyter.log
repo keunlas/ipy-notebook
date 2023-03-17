@@ -375,3 +375,7 @@ AssertionError
 [I 00:32:53.636 NotebookApp] 302 GET / (58.18.161.127) 0.400000ms
 [I 00:32:53.735 NotebookApp] 302 GET /tree? (1.85.216.111) 0.670000ms
 [I 01:09:13.168 NotebookApp] 302 GET / (171.43.236.71) 0.400000ms
+[W 01:11:07.804 NotebookApp] Forbidden
+[W 01:11:07.804 NotebookApp] 403 GET /api/sessions?_=1679055105235 (180.101.245.253) 0.690000ms referer=http://114.132.78.107:8888/tree?
+[W 01:11:59.494 NotebookApp] Forbidden
+[W 01:11:59.495 NotebookApp] 403 GET /api/contents/matplotlib?type=directory&_=1679055105233 (180.101.244.14) 0.720000ms referer=http://114.132.78.107:8888/tree/matplotlib
