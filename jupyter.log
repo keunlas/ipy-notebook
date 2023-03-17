@@ -86,3 +86,96 @@
 [I 21:08:16.446 NotebookApp] 302 GET /tree? (112.66.101.71) 0.510000ms
 [W 22:32:39.847 NotebookApp] Forbidden
 [W 22:32:39.847 NotebookApp] 403 GET /api/config/tree?_=1679049150587 (220.196.160.124) 0.760000ms referer=http://114.132.78.107:8888/tree?
+[I 22:34:07.926 NotebookApp] 302 GET / (171.43.236.71) 0.410000ms
+[W 22:34:22.991 NotebookApp] Notebook numpy/numpy.ipynb is not trusted
+[I 22:34:23.747 NotebookApp] Kernel started: 4ca8c3e9-be17-47a0-ac84-674d742e32d9, name: python3
+[I 22:34:31.200 NotebookApp] Starting buffering for 4ca8c3e9-be17-47a0-ac84-674d742e32d9:a73c8446b9334a638528a8fa3e3c6417
+[I 22:34:31.431 NotebookApp] Kernel restarted: 4ca8c3e9-be17-47a0-ac84-674d742e32d9
+[I 22:34:31.513 NotebookApp] Restoring connection for 4ca8c3e9-be17-47a0-ac84-674d742e32d9:a73c8446b9334a638528a8fa3e3c6417
+[I 22:34:32.017 NotebookApp] Replaying 3 buffered messages
+[E 22:34:32.132 NotebookApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 584, in _run_callback
+        f = callback(*args, **kwargs)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 308, in stream_callback
+        return callback(self, msg)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/notebook/services/kernels/handlers.py", line 572, in _on_zmq_reply
+        super()._on_zmq_reply(stream, msg)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/notebook/base/zmqhandlers.py", line 256, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/websocket.py", line 339, in write_message
+        return self.ws_connection.write_message(message, binary=binary)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/websocket.py", line 1086, in write_message
+        fut = self._write_frame(True, opcode, message, flags=flags)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/websocket.py", line 1061, in _write_frame
+        return self.stream.write(frame)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/iostream.py", line 546, in write
+        self._handle_write()
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/iostream.py", line 976, in _handle_write
+        self._write_buffer.advance(num_bytes)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/iostream.py", line 182, in advance
+        assert 0 < size <= self._size
+    AssertionError
+[E 22:34:32.134 NotebookApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 621, in _handle_events
+        self._handle_recv()
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 650, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 584, in _run_callback
+        f = callback(*args, **kwargs)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 308, in stream_callback
+        return callback(self, msg)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/notebook/services/kernels/handlers.py", line 572, in _on_zmq_reply
+        super()._on_zmq_reply(stream, msg)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/notebook/base/zmqhandlers.py", line 256, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/websocket.py", line 339, in write_message
+        return self.ws_connection.write_message(message, binary=binary)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/websocket.py", line 1086, in write_message
+        fut = self._write_frame(True, opcode, message, flags=flags)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/websocket.py", line 1061, in _write_frame
+        return self.stream.write(frame)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/iostream.py", line 546, in write
+        self._handle_write()
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/iostream.py", line 976, in _handle_write
+        self._write_buffer.advance(num_bytes)
+      File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/iostream.py", line 182, in advance
+        assert 0 < size <= self._size
+    AssertionError
+Exception in callback BaseAsyncIOLoop._handle_events(44, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(44, 1)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/platform/asyncio.py", line 206, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 621, in _handle_events
+    self._handle_recv()
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 650, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 584, in _run_callback
+    f = callback(*args, **kwargs)
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/zmq/eventloop/zmqstream.py", line 308, in stream_callback
+    return callback(self, msg)
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/notebook/services/kernels/handlers.py", line 572, in _on_zmq_reply
+    super()._on_zmq_reply(stream, msg)
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/notebook/base/zmqhandlers.py", line 256, in _on_zmq_reply
+    self.write_message(msg, binary=isinstance(msg, bytes))
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/websocket.py", line 339, in write_message
+    return self.ws_connection.write_message(message, binary=binary)
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/websocket.py", line 1086, in write_message
+    fut = self._write_frame(True, opcode, message, flags=flags)
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/websocket.py", line 1061, in _write_frame
+    return self.stream.write(frame)
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/iostream.py", line 546, in write
+    self._handle_write()
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/iostream.py", line 976, in _handle_write
+    self._write_buffer.advance(num_bytes)
+  File "/home/ubuntu/Python-Notebook/.venv/lib/python3.10/site-packages/tornado/iostream.py", line 182, in advance
+    assert 0 < size <= self._size
+AssertionError
+[I 22:34:49.504 NotebookApp] Saving file at /numpy/numpy.ipynb
+[W 22:34:49.565 NotebookApp] Trusting notebook /numpy/numpy.ipynb
+[I 22:34:54.572 NotebookApp] Starting buffering for 4ca8c3e9-be17-47a0-ac84-674d742e32d9:a73c8446b9334a638528a8fa3e3c6417
+[I 22:34:56.163 NotebookApp] Discarding 59 buffered messages for 4ca8c3e9-be17-47a0-ac84-674d742e32d9:a73c8446b9334a638528a8fa3e3c6417
