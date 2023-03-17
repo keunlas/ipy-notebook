@@ -7,3 +7,7 @@
 [W 05:00:02.967 NotebookApp] Not allowing login redirect to '/tree?'
 [I 05:00:02.967 NotebookApp] 302 POST /login?next=%2Ftree%3F (171.43.236.71) 220.610000ms
 [I 05:00:02.992 NotebookApp] 302 GET / (171.43.236.71) 0.390000ms
+[I 05:01:24.031 NotebookApp] 302 GET / (180.101.245.251) 0.420000ms
+[I 05:01:24.171 NotebookApp] 302 GET /tree? (220.196.160.95) 0.680000ms
+[W 05:01:35.222 NotebookApp] Forbidden
+[W 05:01:35.222 NotebookApp] 403 GET /api/sessions?_=1679086817434 (220.196.160.146) 0.710000ms referer=http://114.132.78.107:20001/tree?
