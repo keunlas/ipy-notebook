@@ -453,3 +453,24 @@ AssertionError
 [W 04:53:04.684 NotebookApp] 403 GET /api/config/tree?_=1679064260727 (220.196.160.53) 0.710000ms referer=http://114.132.78.107:8888/tree/matplotlib
 [W 04:53:30.622 NotebookApp] Forbidden
 [W 04:53:30.622 NotebookApp] 403 GET /api/sessions?_=1679084036817 (220.196.160.124) 0.730000ms referer=http://114.132.78.107:8888/tree?
+[W 04:54:02.253 NotebookApp] Forbidden
+[W 04:54:02.254 NotebookApp] 403 GET /api/terminals?_=1679084036824 (220.196.160.154) 0.690000ms referer=http://114.132.78.107:8888/tree?
+[C 04:54:39.385 NotebookApp] received signal 15, stopping
+[I 04:54:39.385 NotebookApp] Shutting down 3 kernels
+[I 04:54:39.386 NotebookApp] Kernel shutdown: 47746fda-9cb3-4c94-9b05-98a7d44dc36b
+[I 04:54:39.498 NotebookApp] Kernel shutdown: df5e68ff-7736-43f9-8365-2ace3e0050d9
+[I 04:54:39.510 NotebookApp] Kernel shutdown: 4ca8c3e9-be17-47a0-ac84-674d742e32d9
+[I 04:54:39.522 NotebookApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
