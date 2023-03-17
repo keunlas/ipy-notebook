@@ -432,3 +432,5 @@ AssertionError
 [W 04:40:30.142 NotebookApp] 403 GET /api/contents/hello.ipynb?type=notebook&_=1679085583950 (220.196.160.53) 0.740000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
 [W 04:41:30.439 NotebookApp] Forbidden
 [W 04:41:30.439 NotebookApp] 403 GET /api/contents?type=directory&_=1679084036813 (59.83.208.103) 0.760000ms referer=http://114.132.78.107:8888/tree?
+[W 04:42:12.760 NotebookApp] Couldn't authenticate WebSocket connection
+[W 04:42:12.762 NotebookApp] 403 GET /api/kernels/4ca8c3e9-be17-47a0-ac84-674d742e32d9/channels?session_id=3b8c718ff9a6428483806b6c256d381d (220.196.160.124) 2.890000ms referer=None
