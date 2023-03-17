@@ -428,3 +428,5 @@ AssertionError
 [W 04:38:40.563 NotebookApp] 403 GET /api/sessions?_=1679084036811 (180.101.244.13) 0.660000ms referer=http://114.132.78.107:8888/tree?
 [W 04:39:51.238 NotebookApp] Forbidden
 [W 04:39:51.238 NotebookApp] 403 GET /api/contents?type=directory&_=1679084036819 (220.196.160.83) 0.900000ms referer=http://114.132.78.107:8888/tree?
+[W 04:40:30.142 NotebookApp] Forbidden
+[W 04:40:30.142 NotebookApp] 403 GET /api/contents/hello.ipynb?type=notebook&_=1679085583950 (220.196.160.53) 0.740000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
