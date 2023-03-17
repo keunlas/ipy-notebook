@@ -400,3 +400,5 @@ AssertionError
 [W 04:19:49.515 NotebookApp] Forbidden
 [W 04:19:49.515 NotebookApp] 403 GET /api/contents?type=directory&_=1679084036805 (180.101.245.247) 0.770000ms referer=http://114.132.78.107:8888/tree?
 [I 04:19:51.152 NotebookApp] 302 GET /edit/README.md (220.196.160.96) 0.530000ms
+[W 04:21:16.977 NotebookApp] Forbidden
+[W 04:21:16.977 NotebookApp] 403 GET /api/contents/README.md?type=file&format=text&_=1679084053263 (180.101.245.247) 0.770000ms referer=http://114.132.78.107:8888/edit/README.md
