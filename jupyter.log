@@ -323,3 +323,6 @@ AssertionError
 [W 22:50:38.299 NotebookApp] Couldn't authenticate WebSocket connection
 [W 22:50:38.301 NotebookApp] 403 GET /api/kernels/4ca8c3e9-be17-47a0-ac84-674d742e32d9/channels?session_id=a26d0f0719a441ceb69209cd365c7627 (180.101.244.11) 2.720000ms referer=None
 [W 22:50:45.153 NotebookApp] 404 HEAD http://110.242.68.4/ (182.138.158.190) 4.050000ms referer=None
+[W 22:51:16.890 NotebookApp] Forbidden
+[W 22:51:16.891 NotebookApp] 403 GET /api/contents/matplotlib?type=directory&_=1679063648794 (180.101.245.249) 0.720000ms referer=http://114.132.78.107:8888/tree/matplotlib
+[I 22:51:55.984 NotebookApp] 302 GET /tree/matplotlib (59.83.208.104) 0.560000ms
