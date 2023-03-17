@@ -65,3 +65,5 @@
 [W 20:14:17.141 NotebookApp] 403 GET /api/terminals?_=1679055105231 (59.83.208.106) 0.670000ms referer=http://114.132.78.107:8888/tree?
 [W 20:16:28.997 NotebookApp] Forbidden
 [W 20:16:28.998 NotebookApp] 403 GET /api/terminals?_=1679055105229 (180.101.244.14) 0.710000ms referer=http://114.132.78.107:8888/tree?
+[W 20:18:48.773 NotebookApp] Forbidden
+[W 20:18:48.773 NotebookApp] 403 GET /api/config/common?_=1679055105228 (59.83.208.106) 0.740000ms referer=http://114.132.78.107:8888/tree?
