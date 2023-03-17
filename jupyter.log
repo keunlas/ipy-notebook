@@ -1,0 +1,184 @@
+[I 17:07:26.862 NotebookApp] Serving notebooks from local directory: /home/ubuntu/ai
+[I 17:07:26.862 NotebookApp] Jupyter Notebook 6.5.3 is running at:
+[I 17:07:26.862 NotebookApp] http://VM-12-9-ubuntu:8888/
+[I 17:07:26.862 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 17:07:29.988 NotebookApp] Forbidden
+[W 17:07:29.989 NotebookApp] 403 GET /api/contents/matplotlib/matplotlib.ipynb?type=notebook&_=1679043980191 (180.101.245.253) 0.830000ms referer=http://114.132.78.107:8888/notebooks/matplotlib/matplotlib.ipynb
+[I 17:07:47.165 NotebookApp] 302 GET /notebooks/matplotlib/matplotlib.ipynb (220.196.160.51) 0.580000ms
+[I 17:07:52.284 NotebookApp] Saving file at /matplotlib/matplotlib.ipynb
+[W 17:07:52.285 NotebookApp] Notebook matplotlib/matplotlib.ipynb is not trusted
+[W 17:07:52.908 NotebookApp] Notebook matplotlib/matplotlib.ipynb is not trusted
+[I 17:07:54.271 NotebookApp] Kernel started: bdd7eaaa-a66f-4680-924b-eba222a9aca5, name: python3
+[I 17:08:01.941 NotebookApp] Kernel shutdown: bdd7eaaa-a66f-4680-924b-eba222a9aca5
+[W 17:08:02.156 NotebookApp] 404 DELETE /api/sessions/f87a5d50-4bf2-46a6-a57f-421da9d3df49 (171.43.236.71): Session not found: session_id='f87a5d50-4bf2-46a6-a57f-421da9d3df49'
+[W 17:08:02.157 NotebookApp] Session not found: session_id='f87a5d50-4bf2-46a6-a57f-421da9d3df49'
+[W 17:08:02.157 NotebookApp] 404 DELETE /api/sessions/f87a5d50-4bf2-46a6-a57f-421da9d3df49 (171.43.236.71) 0.920000ms referer=http://114.132.78.107:8888/notebooks/matplotlib/matplotlib.ipynb
+[W 17:08:07.930 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:08:07.935 NotebookApp] 403 GET /api/kernels/f4888745-ae3c-4856-9d0c-8f4d8d004f16/channels?session_id=d787db80cb86431fbfcce51ae6c87e69 (180.101.245.247) 6.150000ms referer=None
+[W 17:09:00.795 NotebookApp] Forbidden
+[W 17:09:00.796 NotebookApp] 403 GET /api/config/common?_=1679043977093 (220.196.160.125) 0.780000ms referer=http://114.132.78.107:8888/tree
+[W 17:09:11.994 NotebookApp] Forbidden
+[W 17:09:11.994 NotebookApp] 403 GET /api/contents/jupyter.log?type=file&format=text&_=1679043709658 (180.101.245.246) 0.740000ms referer=http://114.132.78.107:8888/edit/jupyter.log
+[W 17:09:16.997 NotebookApp] Forbidden
+[W 17:09:16.998 NotebookApp] 403 GET /api/sessions?_=1679043633917 (220.196.160.101) 0.770000ms referer=http://114.132.78.107:8888/tree
+[W 17:09:22.960 NotebookApp] Forbidden
+[W 17:09:22.960 NotebookApp] 403 GET /api/contents/numpy?type=directory&_=1679043633905 (180.101.244.14) 0.760000ms referer=http://114.132.78.107:8888/tree/numpy
+[W 17:09:44.716 NotebookApp] 405 GET /api/contents/numpy/hello.ipynb/trust (180.101.245.246) 2.080000ms referer=http://114.132.78.107:8888/notebooks/numpy/hello.ipynb
+[W 17:09:52.176 NotebookApp] Forbidden
+[W 17:09:52.176 NotebookApp] 403 GET /api/config/edit?_=1679043709656 (220.196.160.84) 0.690000ms referer=http://114.132.78.107:8888/edit/jupyter.log
+[W 17:09:53.568 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:09:53.570 NotebookApp] 403 GET /api/kernels/52c97bb7-6f04-4f9b-b9c8-1dc3df3e403b/channels?session_id=d4826a633403434b8d1d50f7227be9cc (59.83.208.104) 2.550000ms referer=None
+[W 17:10:40.975 NotebookApp] Forbidden
+[W 17:10:40.975 NotebookApp] 403 GET /api/config/notebook?_=1679043646397 (220.196.160.101) 0.780000ms referer=http://114.132.78.107:8888/notebooks/numpy/hello.ipynb
+[W 17:10:45.494 NotebookApp] Forbidden
+[W 17:10:45.495 NotebookApp] 403 GET /api/contents?type=directory&_=1679043633919 (180.101.245.248) 0.730000ms referer=http://114.132.78.107:8888/tree
+[W 17:10:49.215 NotebookApp] Forbidden
+[W 17:10:49.215 NotebookApp] 403 GET /api/contents/matplotlib/matplotlib.ipynb/checkpoints?_=1679043980192 (220.196.160.144) 0.780000ms referer=http://114.132.78.107:8888/notebooks/matplotlib/matplotlib.ipynb
+[W 17:11:09.749 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:11:09.751 NotebookApp] 403 GET /api/kernels/bdd7eaaa-a66f-4680-924b-eba222a9aca5/channels?session_id=102c392bdb6340dd89d727d7fc7e782c (220.196.160.125) 2.630000ms referer=None
+[W 17:11:50.463 NotebookApp] Forbidden
+[W 17:11:50.463 NotebookApp] 403 GET /api/config/common?_=1679043633897 (180.101.245.248) 0.810000ms referer=http://114.132.78.107:8888/tree?
+[I 17:12:06.989 NotebookApp] 302 GET /edit/jupyter.log (220.196.160.75) 0.550000ms
+[W 17:12:09.034 NotebookApp] Notebook pandas/pandas.ipynb is not trusted
+[I 17:12:09.233 NotebookApp] Kernel started: 91f83831-89fd-4753-8f17-e96bff98654b, name: python3
+[I 17:12:21.940 NotebookApp] Saving file at /pandas/pandas.ipynb
+[I 17:12:22.010 NotebookApp] Starting buffering for 91f83831-89fd-4753-8f17-e96bff98654b:1d83f7b366e0482c8e59503b3008396a
+[I 17:12:33.527 NotebookApp] Kernel started: 7b991242-75b4-4c8c-acbf-f345eaed06b0, name: python3
+[W 17:12:40.394 NotebookApp] Forbidden
+[W 17:12:40.395 NotebookApp] 403 GET /api/config/notebook?_=1679043980189 (220.196.160.53) 0.760000ms referer=http://114.132.78.107:8888/notebooks/matplotlib/matplotlib.ipynb
+[W 17:12:46.538 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:12:46.540 NotebookApp] 403 GET /api/kernels/52c97bb7-6f04-4f9b-b9c8-1dc3df3e403b/channels?session_id=6213183ef7fc42c28b0390ad932cc5e2 (180.101.244.16) 2.670000ms referer=None
+[W 17:13:42.395 NotebookApp] Forbidden
+[W 17:13:42.395 NotebookApp] 403 GET /api/contents/numpy?type=directory&_=1679043633902 (59.83.208.103) 1.030000ms referer=http://114.132.78.107:8888/tree/numpy
+[I 17:13:42.484 NotebookApp] Starting buffering for 7b991242-75b4-4c8c-acbf-f345eaed06b0:0b2723c811cd41ae98a3b2a5e1a4f527
+[I 17:13:42.716 NotebookApp] Kernel restarted: 7b991242-75b4-4c8c-acbf-f345eaed06b0
+[I 17:13:42.838 NotebookApp] Restoring connection for 7b991242-75b4-4c8c-acbf-f345eaed06b0:0b2723c811cd41ae98a3b2a5e1a4f527
+[I 17:13:43.343 NotebookApp] Replaying 3 buffered messages
+[I 17:13:47.560 NotebookApp] Saving file at /hello.ipynb
+[W 17:13:51.242 NotebookApp] Forbidden
+[W 17:13:51.243 NotebookApp] 403 GET /api/contents/numpy/hello.ipynb?type=notebook&_=1679043646399 (220.196.160.61) 0.790000ms referer=http://114.132.78.107:8888/notebooks/numpy/hello.ipynb
+[W 17:13:59.264 NotebookApp] Forbidden
+[W 17:13:59.265 NotebookApp] 403 GET /api/config/tree?_=1679044238452 (180.101.244.14) 0.740000ms referer=http://114.132.78.107:8888/tree
+[W 17:14:05.996 NotebookApp] Forbidden
+[W 17:14:05.996 NotebookApp] 403 GET /api/contents/hello.ipynb/checkpoints?_=1679044353016 (180.101.244.16) 0.950000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[W 17:14:16.235 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:14:16.237 NotebookApp] 403 GET /api/kernels/91f83831-89fd-4753-8f17-e96bff98654b/channels?session_id=1d83f7b366e0482c8e59503b3008396a (180.101.245.247) 2.680000ms referer=None
+[W 17:14:20.948 NotebookApp] Forbidden
+[W 17:14:20.949 NotebookApp] 403 GET /api/contents/numpy/hello.ipynb?type=notebook&_=1679043637223 (220.196.160.144) 0.740000ms referer=http://114.132.78.107:8888/notebooks/numpy/hello.ipynb
+[W 17:14:23.182 NotebookApp] Forbidden
+[W 17:14:23.182 NotebookApp] 403 GET /api/contents/pandas?type=directory&_=1679044306846 (180.101.245.250) 0.800000ms referer=http://114.132.78.107:8888/tree/pandas
+[W 17:14:24.031 NotebookApp] Forbidden
+[W 17:14:24.031 NotebookApp] 403 GET /api/terminals?_=1679043977096 (180.101.245.249) 0.760000ms referer=http://114.132.78.107:8888/tree
+[I 17:14:35.719 NotebookApp] Starting buffering for 7b991242-75b4-4c8c-acbf-f345eaed06b0:0b2723c811cd41ae98a3b2a5e1a4f527
+[W 17:14:38.019 NotebookApp] Forbidden
+[W 17:14:38.020 NotebookApp] 403 GET /api/contents/pandas/pandas.ipynb/checkpoints?_=1679044328778 (59.83.208.108) 1.180000ms referer=http://114.132.78.107:8888/notebooks/pandas/pandas.ipynb
+[W 17:14:45.195 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:14:45.198 NotebookApp] 403 GET /api/kernels/7b991242-75b4-4c8c-acbf-f345eaed06b0/channels?session_id=0b2723c811cd41ae98a3b2a5e1a4f527 (59.83.208.104) 4.140000ms referer=None
+[W 17:15:46.585 NotebookApp] Notebook matplotlib/matplotlib.ipynb is not trusted
+[I 17:15:48.097 NotebookApp] Kernel started: 06a37d16-5e49-40b1-88cd-b4a841142759, name: python3
+[I 17:16:11.608 NotebookApp] 302 GET /notebooks/pandas/pandas.ipynb (220.196.160.144) 0.550000ms
+[I 17:16:17.351 NotebookApp] Starting buffering for 06a37d16-5e49-40b1-88cd-b4a841142759:1c42668a5df2451999250947044db3da
+[W 17:16:36.143 NotebookApp] 400 GET /api/contents/pandas/data.xlsx?type=file&format=text&_=1679044595953 (171.43.236.71): /home/ubuntu/ai/pandas/data.xlsx is not UTF-8 encoded
+[W 17:16:36.143 NotebookApp] /home/ubuntu/ai/pandas/data.xlsx is not UTF-8 encoded
+[W 17:16:36.143 NotebookApp] 400 GET /api/contents/pandas/data.xlsx?type=file&format=text&_=1679044595953 (171.43.236.71) 1.230000ms referer=http://114.132.78.107:8888/edit/pandas/data.xlsx
+[W 17:17:23.925 NotebookApp] Forbidden
+[W 17:17:23.926 NotebookApp] 403 GET /api/terminals?_=1679043977094 (180.101.244.12) 0.680000ms referer=http://114.132.78.107:8888/tree
+[W 17:17:29.761 NotebookApp] Forbidden
+[W 17:17:29.761 NotebookApp] 403 GET /api/contents/matplotlib/matplotlib.ipynb?type=notebook&_=1679044546335 (220.196.160.51) 0.740000ms referer=http://114.132.78.107:8888/notebooks/matplotlib/matplotlib.ipynb
+[I 17:18:10.046 NotebookApp] 302 GET /edit/pandas/data.csv (220.196.160.65) 0.570000ms
+[I 17:18:20.513 NotebookApp] 302 GET / (198.235.24.39) 0.530000ms
+[I 17:18:20.590 NotebookApp] 302 GET /tree? (198.235.24.39) 0.540000ms
+[W 17:18:25.978 NotebookApp] Method Not Allowed
+[W 17:18:25.978 NotebookApp] 405 GET /api/kernels/7b991242-75b4-4c8c-acbf-f345eaed06b0/restart (180.101.245.253) 0.750000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[I 17:18:29.520 NotebookApp] Saving file at /pandas/pandas.ipynb
+[W 17:19:01.485 NotebookApp] Forbidden
+[W 17:19:01.485 NotebookApp] 403 GET /api/config/common?_=1679044477321 (220.196.160.76) 0.740000ms referer=http://114.132.78.107:8888/tree
+[W 17:19:21.268 NotebookApp] Forbidden
+[W 17:19:21.268 NotebookApp] 403 GET /api/contents/numpy?type=directory&_=1679044238460 (180.101.245.253) 0.750000ms referer=http://114.132.78.107:8888/tree/numpy
+[W 17:19:23.157 NotebookApp] Forbidden
+[W 17:19:23.158 NotebookApp] 403 GET /api/sessions?_=1679044088569 (59.83.208.107) 0.690000ms referer=http://114.132.78.107:8888/tree
+[I 17:19:35.546 NotebookApp] Saving file at /pandas/pandas.ipynb
+[I 17:19:39.578 NotebookApp] Starting buffering for 91f83831-89fd-4753-8f17-e96bff98654b:29cf01a2885b4fc4857f6fb7c9363e63
+[I 17:19:39.910 NotebookApp] Kernel restarted: 91f83831-89fd-4753-8f17-e96bff98654b
+[I 17:19:39.982 NotebookApp] Restoring connection for 91f83831-89fd-4753-8f17-e96bff98654b:29cf01a2885b4fc4857f6fb7c9363e63
+[I 17:19:40.486 NotebookApp] Replaying 3 buffered messages
+[W 17:19:40.491 NotebookApp] Forbidden
+[W 17:19:40.494 NotebookApp] 403 GET /api/contents/matplotlib?type=directory&_=1679044238458 (59.83.208.108) 3.740000ms referer=http://114.132.78.107:8888/tree/matplotlib
+[W 17:19:51.315 NotebookApp] Forbidden
+[W 17:19:51.315 NotebookApp] 403 GET /api/contents/pandas/pandas.ipynb?type=notebook&_=1679044328777 (220.196.160.96) 0.770000ms referer=http://114.132.78.107:8888/notebooks/pandas/pandas.ipynb
+[W 17:19:51.916 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:19:51.918 NotebookApp] 403 GET /api/kernels/06a37d16-5e49-40b1-88cd-b4a841142759/channels?session_id=1c42668a5df2451999250947044db3da (180.101.245.251) 2.690000ms referer=None
+[W 17:19:58.292 NotebookApp] Forbidden
+[W 17:19:58.292 NotebookApp] 403 GET /api/config/edit?_=1679044592308 (180.101.244.15) 0.740000ms referer=http://114.132.78.107:8888/edit/pandas/data.csv
+[I 17:19:59.505 NotebookApp] 302 GET /notebooks/hello.ipynb (220.196.160.144) 0.610000ms
+[I 17:20:23.216 NotebookApp] Saving file at /pandas/pandas.ipynb
+[I 17:20:29.524 NotebookApp] Saving file at /pandas/pandas.ipynb
+[I 17:20:37.018 NotebookApp] Saving file at /pandas/pandas.ipynb
+[W 17:20:37.684 NotebookApp] Forbidden
+[W 17:20:37.684 NotebookApp] 403 GET /api/config/notebook?_=1679044328775 (180.101.245.248) 0.770000ms referer=http://114.132.78.107:8888/notebooks/pandas/pandas.ipynb
+[W 17:20:39.834 NotebookApp] Forbidden
+[W 17:20:39.834 NotebookApp] 403 GET /api/contents?type=directory&_=1679044088571 (180.101.245.246) 0.980000ms referer=http://114.132.78.107:8888/tree
+[W 17:21:04.654 NotebookApp] Forbidden
+[W 17:21:04.654 NotebookApp] 403 GET /api/contents/pandas/data.csv?type=file&format=text&_=1679044592310 (220.196.160.95) 0.770000ms referer=http://114.132.78.107:8888/edit/pandas/data.csv
+[I 17:21:10.190 NotebookApp] Saving file at /pandas/pandas.ipynb
+[I 17:21:11.640 NotebookApp] Starting buffering for 91f83831-89fd-4753-8f17-e96bff98654b:29cf01a2885b4fc4857f6fb7c9363e63
+[W 17:21:22.347 NotebookApp] Forbidden
+[W 17:21:22.347 NotebookApp] 403 GET /api/contents/matplotlib/matplotlib.ipynb/checkpoints?_=1679044546336 (220.196.160.154) 0.790000ms referer=http://114.132.78.107:8888/notebooks/matplotlib/matplotlib.ipynb
+[W 17:21:43.332 NotebookApp] Forbidden
+[W 17:21:43.332 NotebookApp] 403 GET /api/contents/hello.ipynb?type=notebook&_=1679044353015 (180.101.244.11) 0.740000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[W 17:22:44.838 NotebookApp] Forbidden
+[W 17:22:44.838 NotebookApp] 403 GET /api/config/common?_=1679044238453 (180.101.245.248) 0.730000ms referer=http://114.132.78.107:8888/tree
+[I 17:23:21.731 NotebookApp] 302 GET /edit/pandas/data_r.csv (220.196.160.146) 0.510000ms
+[W 17:23:55.187 NotebookApp] Forbidden
+[W 17:23:55.187 NotebookApp] 403 GET /api/config/tree?_=1679044477320 (59.83.208.103) 0.700000ms referer=http://114.132.78.107:8888/tree
+[W 17:24:03.176 NotebookApp] Forbidden
+[W 17:24:03.176 NotebookApp] 403 GET /api/contents/hello.ipynb/checkpoints (220.196.160.73) 0.730000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[W 17:24:15.160 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:24:15.162 NotebookApp] 403 GET /api/kernels/91f83831-89fd-4753-8f17-e96bff98654b/channels?session_id=29cf01a2885b4fc4857f6fb7c9363e63 (220.196.160.73) 2.610000ms referer=None
+[W 17:24:21.384 NotebookApp] Forbidden
+[W 17:24:21.384 NotebookApp] 403 GET /api/terminals?_=1679044477324 (220.196.160.53) 0.710000ms referer=http://114.132.78.107:8888/tree
+[W 17:24:25.314 NotebookApp] Forbidden
+[W 17:24:25.315 NotebookApp] 403 GET /api/contents/pandas/pandas.ipynb/checkpoints?_=1679044589110 (220.196.160.144) 0.730000ms referer=http://114.132.78.107:8888/notebooks/pandas/pandas.ipynb
+[I 17:25:30.283 NotebookApp] 302 GET / (64.62.197.4) 0.480000ms
+[W 17:26:09.605 NotebookApp] Method Not Allowed
+[W 17:26:09.606 NotebookApp] 405 GET /api/kernels/91f83831-89fd-4753-8f17-e96bff98654b/restart (59.83.208.103) 0.830000ms referer=http://114.132.78.107:8888/notebooks/pandas/pandas.ipynb
+[W 17:27:37.460 NotebookApp] Notebook hello.ipynb is not trusted
+[I 17:27:54.739 NotebookApp] Starting buffering for 7b991242-75b4-4c8c-acbf-f345eaed06b0:2978811a1d914b14857d003dea8b5405
+[W 17:28:08.110 NotebookApp] delete /python
+[W 17:29:09.115 NotebookApp] Forbidden
+[W 17:29:09.115 NotebookApp] 403 GET /api/config/common?_=1679045257193 (220.196.160.125) 0.800000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[W 17:30:17.805 NotebookApp] Forbidden
+[W 17:30:17.805 NotebookApp] 403 GET /api/sessions?_=1679044477346 (220.196.160.83) 0.730000ms referer=http://114.132.78.107:8888/tree/pandas
+[W 17:30:28.412 NotebookApp] Forbidden
+[W 17:30:28.412 NotebookApp] 403 GET /api/config/notebook?_=1679045257192 (59.83.208.106) 0.840000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[W 17:30:37.454 NotebookApp] Forbidden
+[W 17:30:37.455 NotebookApp] 403 GET /api/contents?type=directory&_=1679044477349 (180.101.244.15) 0.730000ms referer=http://114.132.78.107:8888/tree
+[W 17:30:42.120 NotebookApp] Forbidden
+[W 17:30:42.120 NotebookApp] 403 GET /api/contents/python?type=directory&_=1679044477362 (180.101.245.252) 0.740000ms referer=http://114.132.78.107:8888/tree/python
+[W 17:33:20.037 NotebookApp] Forbidden
+[W 17:33:20.038 NotebookApp] 403 GET /api/contents/hello.ipynb?type=notebook&_=1679045257194 (220.196.160.96) 1.050000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[W 17:33:51.106 NotebookApp] Couldn't authenticate WebSocket connection
+[W 17:33:51.111 NotebookApp] 403 GET /api/kernels/7b991242-75b4-4c8c-acbf-f345eaed06b0/channels?session_id=2978811a1d914b14857d003dea8b5405 (180.101.245.252) 6.520000ms referer=None
+[W 17:34:05.042 NotebookApp] Forbidden
+[W 17:34:05.042 NotebookApp] 403 GET /api/contents/hello.ipynb/checkpoints?_=1679045257195 (220.196.160.61) 0.700000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[W 17:34:21.179 NotebookApp] Forbidden
+[W 17:34:21.179 NotebookApp] 403 GET /api/terminals?_=1679044477357 (220.196.160.96) 0.730000ms referer=http://114.132.78.107:8888/tree
+[C 17:37:06.636 NotebookApp] received signal 15, stopping
+[I 17:37:06.637 NotebookApp] Shutting down 3 kernels
+[I 17:37:06.637 NotebookApp] Kernel shutdown: 06a37d16-5e49-40b1-88cd-b4a841142759
+[I 17:37:06.849 NotebookApp] Kernel shutdown: 7b991242-75b4-4c8c-acbf-f345eaed06b0
+[I 17:37:07.061 NotebookApp] Kernel shutdown: 91f83831-89fd-4753-8f17-e96bff98654b
+[I 17:37:07.374 NotebookApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
