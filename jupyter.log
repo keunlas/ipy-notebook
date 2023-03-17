@@ -265,3 +265,12 @@ AssertionError
         assert 0 < size <= self._size
     AssertionError
 [I 22:35:48.857 NotebookApp] Saving file at /numpy/numpy.ipynb
+[I 22:36:13.804 NotebookApp] Saving file at /numpy/numpy.ipynb
+[I 22:36:41.477 NotebookApp] Starting buffering for 4ca8c3e9-be17-47a0-ac84-674d742e32d9:d6f6b99cc5e64a06869a8eb55849c80c
+[I 22:36:41.708 NotebookApp] Kernel restarted: 4ca8c3e9-be17-47a0-ac84-674d742e32d9
+[I 22:36:41.768 NotebookApp] Restoring connection for 4ca8c3e9-be17-47a0-ac84-674d742e32d9:d6f6b99cc5e64a06869a8eb55849c80c
+[I 22:36:42.272 NotebookApp] Replaying 137 buffered messages
+[I 22:36:54.744 NotebookApp] Saving file at /numpy/numpy.ipynb
+[I 22:36:54.817 NotebookApp] Starting buffering for 4ca8c3e9-be17-47a0-ac84-674d742e32d9:d6f6b99cc5e64a06869a8eb55849c80c
+[W 22:36:59.358 NotebookApp] Notebook hello.ipynb is not trusted
+[I 22:36:59.596 NotebookApp] Kernel started: df5e68ff-7736-43f9-8365-2ace3e0050d9, name: python3
