@@ -393,3 +393,10 @@ AssertionError
 [I 04:13:56.226 NotebookApp] 302 GET / (171.43.236.71) 0.400000ms
 [W 04:18:32.999 NotebookApp] Forbidden
 [W 04:18:32.999 NotebookApp] 403 GET /api/config/common?_=1679084036801 (180.101.245.249) 0.780000ms referer=http://114.132.78.107:8888/tree?
+[W 04:19:07.357 NotebookApp] Forbidden
+[W 04:19:07.357 NotebookApp] 403 GET /api/config/edit?_=1679084053261 (180.101.245.248) 0.730000ms referer=http://114.132.78.107:8888/edit/README.md
+[W 04:19:36.512 NotebookApp] Forbidden
+[W 04:19:36.513 NotebookApp] 403 GET /api/contents/matplotlib?type=directory&_=1679084036806 (220.196.160.45) 0.870000ms referer=http://114.132.78.107:8888/tree/matplotlib
+[W 04:19:49.515 NotebookApp] Forbidden
+[W 04:19:49.515 NotebookApp] 403 GET /api/contents?type=directory&_=1679084036805 (180.101.245.247) 0.770000ms referer=http://114.132.78.107:8888/tree?
+[I 04:19:51.152 NotebookApp] 302 GET /edit/README.md (220.196.160.96) 0.530000ms
