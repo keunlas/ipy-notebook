@@ -424,3 +424,5 @@ AssertionError
 [W 04:24:23.799 NotebookApp] 405 CONNECT dnspod.qcloud.com:443 (120.0.52.111) 1.160000ms referer=None
 [W 04:33:59.891 NotebookApp] Forbidden
 [W 04:33:59.891 NotebookApp] 403 GET /api/terminals?_=1679084036812 (180.101.245.247) 0.730000ms referer=http://114.132.78.107:8888/tree?
+[W 04:38:40.563 NotebookApp] Forbidden
+[W 04:38:40.563 NotebookApp] 403 GET /api/sessions?_=1679084036811 (180.101.244.13) 0.660000ms referer=http://114.132.78.107:8888/tree?
