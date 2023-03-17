@@ -389,3 +389,4 @@ AssertionError
 [W 01:18:53.451 NotebookApp] 403 GET /api/sessions?_=1679072953513 (220.196.160.124) 0.700000ms referer=http://114.132.78.107:8888/tree?
 [W 01:20:03.726 NotebookApp] Forbidden
 [W 01:20:03.726 NotebookApp] 403 GET /api/contents?type=directory&_=1679072953518 (220.196.160.101) 0.690000ms referer=http://114.132.78.107:8888/tree?
+[I 03:49:33.750 NotebookApp] 302 GET / (103.203.58.5) 0.450000ms
