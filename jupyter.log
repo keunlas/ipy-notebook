@@ -30,3 +30,5 @@
 [W 05:08:43.071 NotebookApp] Forbidden
 [W 05:08:43.071 NotebookApp] 403 GET /api/kernelspecs (220.196.160.101) 0.680000ms referer=http://114.132.78.107:20001/tree?
 [I 05:09:49.157 NotebookApp] 302 GET /tree (180.101.244.16) 0.480000ms
+[W 05:11:25.782 NotebookApp] Forbidden
+[W 05:11:25.782 NotebookApp] 403 GET /api/sessions?_=1679086817437 (220.196.160.117) 0.700000ms referer=http://114.132.78.107:20001/tree?
