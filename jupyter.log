@@ -355,3 +355,5 @@ AssertionError
 [W 22:53:50.776 NotebookApp] 403 GET /api/contents?type=directory&_=1679063648798 (59.83.208.103) 0.720000ms referer=http://114.132.78.107:8888/tree/matplotlib
 [W 22:54:07.298 NotebookApp] Forbidden
 [W 22:54:07.298 NotebookApp] 403 GET /api/sessions?_=1679063648784 (180.101.245.247) 0.700000ms referer=http://114.132.78.107:8888/tree/numpy
+[W 23:00:06.908 NotebookApp] Forbidden
+[W 23:00:06.909 NotebookApp] 403 GET /api/terminals?_=1679064260731 (220.196.160.154) 0.660000ms referer=http://114.132.78.107:8888/tree/matplotlib
