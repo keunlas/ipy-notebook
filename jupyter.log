@@ -40,3 +40,5 @@
 [W 05:19:35.624 NotebookApp] Forbidden
 [W 05:19:35.624 NotebookApp] 403 GET /api/contents/numpy?type=directory&_=1679087949718 (220.196.160.84) 0.800000ms referer=http://114.132.78.107:20001/tree/numpy
 [I 05:19:56.097 NotebookApp] 302 GET /notebooks/numpy/numpy.ipynb (59.83.208.106) 0.580000ms
+[W 05:21:22.543 NotebookApp] Forbidden
+[W 05:21:22.544 NotebookApp] 403 GET /api/sessions?_=1679087949715 (59.83.208.104) 0.710000ms referer=http://114.132.78.107:20001/tree?
