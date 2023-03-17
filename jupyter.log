@@ -77,3 +77,5 @@
 [W 20:29:41.093 NotebookApp] 403 GET /api/contents?type=directory&_=1679043977102 (59.83.208.103) 0.730000ms referer=http://114.132.78.107:8888/tree
 [W 20:38:22.111 NotebookApp] Forbidden
 [W 20:38:22.111 NotebookApp] 403 GET /api/contents/pandas/data_r.csv?type=file&format=text&_=1679044599054 (220.196.160.125) 0.770000ms referer=http://114.132.78.107:8888/edit/pandas/data_r.csv
+[W 20:46:23.375 NotebookApp] Forbidden
+[W 20:46:23.375 NotebookApp] 403 GET /api/contents/pandas?type=directory&_=1679044477339 (220.196.160.83) 0.740000ms referer=http://114.132.78.107:8888/tree/pandas
