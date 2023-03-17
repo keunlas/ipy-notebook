@@ -349,3 +349,7 @@ AssertionError
 [W 22:52:39.459 NotebookApp] 405 CONNECT dnspod.qcloud.com:443 (119.164.104.4) 1.240000ms referer=None
 [W 22:52:54.155 NotebookApp] Forbidden
 [W 22:52:54.155 NotebookApp] 403 GET /api/contents/numpy/numpy.ipynb?type=notebook&_=1679064186623 (220.196.160.83) 0.860000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
+[W 22:53:30.054 NotebookApp] Forbidden
+[W 22:53:30.054 NotebookApp] 403 GET /api/contents/numpy/numpy.ipynb/checkpoints?_=1679064186624 (180.101.245.251) 0.730000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
+[W 22:53:50.776 NotebookApp] Forbidden
+[W 22:53:50.776 NotebookApp] 403 GET /api/contents?type=directory&_=1679063648798 (59.83.208.103) 0.720000ms referer=http://114.132.78.107:8888/tree/matplotlib
