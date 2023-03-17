@@ -32,3 +32,7 @@
 [I 05:09:49.157 NotebookApp] 302 GET /tree (180.101.244.16) 0.480000ms
 [W 05:11:25.782 NotebookApp] Forbidden
 [W 05:11:25.782 NotebookApp] 403 GET /api/sessions?_=1679086817437 (220.196.160.117) 0.700000ms referer=http://114.132.78.107:20001/tree?
+[W 05:13:56.147 NotebookApp] Forbidden
+[W 05:13:56.148 NotebookApp] 403 GET /api/contents?type=directory&_=1679086817445 (59.83.208.104) 0.710000ms referer=http://114.132.78.107:20001/tree?
+[W 05:14:00.204 NotebookApp] Forbidden
+[W 05:14:00.204 NotebookApp] 403 GET /api/terminals?_=1679086817444 (180.101.245.248) 0.840000ms referer=http://114.132.78.107:20001/tree?
