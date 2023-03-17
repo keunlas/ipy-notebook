@@ -278,3 +278,6 @@ AssertionError
 [I 22:37:42.319 NotebookApp] Saving file at /numpy/numpy.ipynb
 [I 22:37:44.473 NotebookApp] Saving file at /hello.ipynb
 [I 22:37:45.574 NotebookApp] Starting buffering for df5e68ff-7736-43f9-8365-2ace3e0050d9:76eb6e521a954a24b927f40e5a742a97
+[I 22:38:31.550 NotebookApp] Starting buffering for 4ca8c3e9-be17-47a0-ac84-674d742e32d9:3b8c718ff9a6428483806b6c256d381d
+[W 22:38:48.047 NotebookApp] Forbidden
+[W 22:38:48.047 NotebookApp] 403 GET /api/config/common?_=1679063648770 (180.101.245.251) 0.770000ms referer=http://114.132.78.107:8888/tree?
