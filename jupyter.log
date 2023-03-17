@@ -46,3 +46,5 @@
 [W 18:43:24.366 NotebookApp] 403 GET /api/contents/matplotlib?type=directory&_=1679049037184 (180.101.245.250) 0.760000ms referer=http://114.132.78.107:8888/tree/matplotlib
 [W 18:44:21.989 NotebookApp] Forbidden
 [W 18:44:21.989 NotebookApp] 403 GET /api/terminals?_=1679049150597 (220.196.160.61) 0.680000ms referer=http://114.132.78.107:8888/tree?
+[W 18:58:38.489 NotebookApp] Forbidden
+[W 18:58:38.489 NotebookApp] 403 GET /api/config/common?_=1679050570994 (180.101.244.13) 0.730000ms referer=http://114.132.78.107:8888/tree?
