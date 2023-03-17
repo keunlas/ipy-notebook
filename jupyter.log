@@ -310,3 +310,11 @@ AssertionError
 [W 22:43:53.294 NotebookApp] 403 GET /api/config/tree?_=1679063648769 (220.196.160.95) 0.700000ms referer=http://114.132.78.107:8888/tree?
 [W 22:43:57.945 NotebookApp] Forbidden
 [W 22:43:57.946 NotebookApp] 403 GET /api/contents/hello.ipynb/checkpoints?_=1679063819175 (180.101.245.248) 0.700000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[I 22:44:11.837 NotebookApp] 302 GET /tree/matplotlib (171.43.236.71) 0.540000ms
+[W 22:44:12.203 NotebookApp] Forbidden
+[W 22:44:12.203 NotebookApp] 403 GET /api/terminals?_=1679063648800 (180.101.245.252) 0.750000ms referer=http://114.132.78.107:8888/tree/matplotlib
+[W 22:44:16.238 NotebookApp] Couldn't authenticate WebSocket connection
+[W 22:44:16.240 NotebookApp] 403 GET /api/kernels/df5e68ff-7736-43f9-8365-2ace3e0050d9/channels?session_id=76eb6e521a954a24b927f40e5a742a97 (180.101.245.247) 2.590000ms referer=None
+[I 22:44:17.269 NotebookApp] 302 POST /login?next=%2Ftree%2Fmatplotlib (171.43.236.71) 80.280000ms
+[W 22:44:38.219 NotebookApp] Forbidden
+[W 22:44:38.219 NotebookApp] 403 GET /api/contents/numpy/numpy.ipynb?type=notebook&_=1679063662783 (180.101.245.251) 0.850000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
