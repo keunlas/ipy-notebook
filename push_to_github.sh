@@ -11,5 +11,5 @@ cd /home/ubuntu/Python-Notebook/
 mytime=`date`
 
 git add .
-git commit -m '${mytime} : upload bakup by script'
+git commit -m "${mytime} : upload bakup by script"
 git push > ./push_to_github.log
