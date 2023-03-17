@@ -449,3 +449,7 @@ AssertionError
 [W 04:49:53.894 NotebookApp] 403 GET /api/contents?type=directory&_=1679084036822 (220.196.160.53) 0.730000ms referer=http://114.132.78.107:8888/tree?
 [W 04:50:19.225 NotebookApp] Forbidden
 [W 04:50:19.225 NotebookApp] 403 GET /api/config/notebook?_=1679085583948 (220.196.160.144) 0.730000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[W 04:53:04.683 NotebookApp] Forbidden
+[W 04:53:04.684 NotebookApp] 403 GET /api/config/tree?_=1679064260727 (220.196.160.53) 0.710000ms referer=http://114.132.78.107:8888/tree/matplotlib
+[W 04:53:30.622 NotebookApp] Forbidden
+[W 04:53:30.622 NotebookApp] 403 GET /api/sessions?_=1679084036817 (220.196.160.124) 0.730000ms referer=http://114.132.78.107:8888/tree?
