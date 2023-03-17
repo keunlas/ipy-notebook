@@ -11,3 +11,5 @@
 [I 05:01:24.171 NotebookApp] 302 GET /tree? (220.196.160.95) 0.680000ms
 [W 05:01:35.222 NotebookApp] Forbidden
 [W 05:01:35.222 NotebookApp] 403 GET /api/sessions?_=1679086817434 (220.196.160.146) 0.710000ms referer=http://114.132.78.107:20001/tree?
+[I 05:02:04.942 NotebookApp] 302 GET / (180.101.245.250) 0.400000ms
+[I 05:02:05.070 NotebookApp] 302 GET /tree? (180.101.245.250) 0.500000ms
