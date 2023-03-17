@@ -42,3 +42,7 @@
 [I 05:19:56.097 NotebookApp] 302 GET /notebooks/numpy/numpy.ipynb (59.83.208.106) 0.580000ms
 [W 05:21:22.543 NotebookApp] Forbidden
 [W 05:21:22.544 NotebookApp] 403 GET /api/sessions?_=1679087949715 (59.83.208.104) 0.710000ms referer=http://114.132.78.107:20001/tree?
+[W 05:23:55.931 NotebookApp] Forbidden
+[W 05:23:55.932 NotebookApp] 403 GET /api/contents?type=directory&_=1679087949717 (180.101.245.246) 0.720000ms referer=http://114.132.78.107:20001/tree?
+[W 05:24:00.111 NotebookApp] Forbidden
+[W 05:24:00.111 NotebookApp] 403 GET /api/terminals?_=1679087949716 (180.101.245.249) 0.700000ms referer=http://114.132.78.107:20001/tree?
