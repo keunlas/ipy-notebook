@@ -81,3 +81,6 @@
 [W 20:46:23.375 NotebookApp] 403 GET /api/contents/pandas?type=directory&_=1679044477339 (220.196.160.83) 0.740000ms referer=http://114.132.78.107:8888/tree/pandas
 [W 20:54:42.077 NotebookApp] Forbidden
 [W 20:54:42.077 NotebookApp] 403 GET /api/contents/pandas/pandas.ipynb?content=0&_=1679044589112 (180.101.245.252) 0.750000ms referer=http://114.132.78.107:8888/notebooks/pandas/pandas.ipynb
+[I 21:08:04.801 NotebookApp] 302 GET / (120.211.145.96) 0.450000ms
+[I 21:08:16.321 NotebookApp] 302 GET / (122.96.28.235) 0.430000ms
+[I 21:08:16.446 NotebookApp] 302 GET /tree? (112.66.101.71) 0.510000ms
