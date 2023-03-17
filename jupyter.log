@@ -297,3 +297,7 @@ AssertionError
 [W 22:41:27.885 NotebookApp] 403 GET /api/config/common?_=1679063662782 (180.101.245.251) 0.720000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
 [W 22:41:32.958 NotebookApp] Forbidden
 [W 22:41:32.958 NotebookApp] 403 GET /api/contents/hello.ipynb?type=notebook&_=1679063819174 (180.101.244.13) 0.720000ms referer=http://114.132.78.107:8888/notebooks/hello.ipynb
+[W 22:42:03.148 NotebookApp] Forbidden
+[W 22:42:03.148 NotebookApp] 403 GET /api/contents/numpy/numpy.ipynb?type=notebook&_=1679063695157 (59.83.208.105) 0.720000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
+[W 22:42:54.556 NotebookApp] Forbidden
+[W 22:42:54.556 NotebookApp] 403 GET /api/contents/numpy/numpy.ipynb/checkpoints?_=1679063662784 (180.101.245.248) 0.710000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
