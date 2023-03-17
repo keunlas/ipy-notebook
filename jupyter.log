@@ -353,3 +353,5 @@ AssertionError
 [W 22:53:30.054 NotebookApp] 403 GET /api/contents/numpy/numpy.ipynb/checkpoints?_=1679064186624 (180.101.245.251) 0.730000ms referer=http://114.132.78.107:8888/notebooks/numpy/numpy.ipynb
 [W 22:53:50.776 NotebookApp] Forbidden
 [W 22:53:50.776 NotebookApp] 403 GET /api/contents?type=directory&_=1679063648798 (59.83.208.103) 0.720000ms referer=http://114.132.78.107:8888/tree/matplotlib
+[W 22:54:07.298 NotebookApp] Forbidden
+[W 22:54:07.298 NotebookApp] 403 GET /api/sessions?_=1679063648784 (180.101.245.247) 0.700000ms referer=http://114.132.78.107:8888/tree/numpy
