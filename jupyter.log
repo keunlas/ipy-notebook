@@ -64,3 +64,5 @@
 [W 00:24:00.067 NotebookApp] 403 GET /api/contents?type=directory&_=1679156051017 (220.196.160.154) 1.020000ms referer=http://114.132.78.107:20001/tree?
 [W 10:26:44.099 NotebookApp] Forbidden
 [W 10:26:44.099 NotebookApp] 403 GET /api/terminals?_=1679156051016 (220.196.160.75) 0.670000ms referer=http://114.132.78.107:20001/tree?
+[W 10:27:54.672 NotebookApp] Forbidden
+[W 10:27:54.672 NotebookApp] 403 GET /api/terminals?_=1679156051014 (220.196.160.95) 0.670000ms referer=http://114.132.78.107:20001/tree?
