@@ -71,3 +71,19 @@
 [I 14:04:31.823 NotebookApp] 302 GET /tree? (111.7.96.172) 0.530000ms
 [I 14:04:31.938 NotebookApp] 302 GET / (111.7.96.172) 0.400000ms
 [I 14:04:32.006 NotebookApp] 302 GET /tree? (111.7.96.172) 0.710000ms
+[C 19:09:19.505 NotebookApp] received signal 15, stopping
+[I 19:09:19.507 NotebookApp] Shutting down 0 kernels
+[I 19:09:19.508 NotebookApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
