@@ -7,4 +7,5 @@ pip freeze > requirements.txt
 mytime=`date`
 git add .
 git commit -m "${mytime} : upload bakup by script"
-git push > ./backup.log
+rm backup.log
+git push > backup.log
