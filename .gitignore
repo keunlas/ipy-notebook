@@ -1,2 +1,5 @@
 /.venv/
-/push_to_github.log
+/backup.log
+/jupyter.log
+
+.ipynb_checkpoints
